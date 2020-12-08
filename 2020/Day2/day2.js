@@ -1,5 +1,4 @@
 let input = new Array()
-let data = new Array()
 
 function loadFile() {
     let fs = require("fs")
