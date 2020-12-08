@@ -14,11 +14,6 @@ const policyPasswordRange = (password, letter, startRange, endRange) => {
     password.split('').map(character => {
         count = (character === letter) ? count += 1 : count
     })
-    /* for(let character of password) {
-        if(character === letter){
-            count++
-        }
-    } */
     return (count >= startRange && count <= endRange)
 }
 
@@ -43,7 +38,5 @@ const solution = () => {
     console.log(valid)
     console.log(validPolicy)
 }
-
-/* data = getData() */
 
 solution()
