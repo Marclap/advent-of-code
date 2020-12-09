@@ -1,12 +1,12 @@
-let input = new Int8Array();
+let input = new Int8Array()
 
 function loadFile() {
-    let fs = require("fs");
-    let text = fs.readFileSync("input.txt").toString('utf-8');
-    input = text.split("\n").map(Number);
+    let fs = require("fs")
+    let text = fs.readFileSync("input.txt").toString('utf-8')
+    input = text.split("\n").map(Number)
 }
 
-loadFile();
+loadFile()
 
 const sumTwoNumbers = () => {
     let complement = []
