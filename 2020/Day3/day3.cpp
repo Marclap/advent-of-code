@@ -25,7 +25,7 @@ int main() {
     int slopes3 = findTrees(data, 5, 1);
     int slopes4 = findTrees(data, 7, 1);
     int slopes5 = findTrees(data, 1, 2);
-    int result = slopes1 * slopes2 * slopes3 * slopes4 * slopes5;
+    long long int result = slopes1 * slopes2 * slopes3 * slopes4 * slopes5;
     cout<<result<<endl;
     cout<<slopes1<<" "<<slopes2<<" "<<slopes3<<" "<<slopes4<<" "<<slopes5<<endl;
     return 0;
